@@ -18,7 +18,7 @@ void main() {
         Product(AppConstants.defaultHeadphonesId, AppConstants.defaultHeadphonesName, AppConstants.defaultHeadphonesPrice),
       ];
       final expected = AppConstants.defaultLaptopPrice + AppConstants.defaultSmartphonePrice + AppConstants.defaultHeadphonesPrice;
-      expect(calculateSubtotal(cart), closeTo(expected, calculateSubtotal(cart)));
+      expect(calculateSubtotal(cart), closeTo(expected, 0.01));
     });
 
     test('#3. getDiscountRate should return correct rates', () {
