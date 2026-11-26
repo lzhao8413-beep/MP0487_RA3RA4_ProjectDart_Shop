@@ -19,6 +19,7 @@ class AppConstants {
   static const String emptyCartMessage = '(Your cart is currently empty)';
   static const String cartSeparator = '-----------------';
   static const String enterProductIdPrompt = 'Enter the Product ID you want to add: ';
+  //change wheel
 
   // ===== Success & Error Messages =====
   static const String addToCartSuccess = '--> [Success] Added {0} to your cart.';
